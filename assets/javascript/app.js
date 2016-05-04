@@ -20,6 +20,9 @@ $(document).ready(function(){
 				wrongans: 0,
 				unans: 0, 
 
+	$('#start').on('click', timer);
+
+
 
 	// start: function(){
 	// 	alert:"you started"
@@ -27,5 +30,6 @@ $(document).ready(function(){
 
     $("#start").on("click", function(){
         console.log("you started");
+        
     })
 })
